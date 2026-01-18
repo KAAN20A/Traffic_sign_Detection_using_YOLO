@@ -1,0 +1,34 @@
+# ------------------------------------------------------------------
+#  HYBRID PERCEPTION SYSTEM - TRAINING HYPERPARAMETERS
+#  File: hyp_config.yaml | Version: 2.1.0
+# ------------------------------------------------------------------
+
+# 1. Optimizer Settings
+lr0: 0.01                   # Başlangıç öğrenme hızı (initial learning rate)
+lrf: 0.0001                 # Final öğrenme hızı
+momentum: 0.937             # SGD momentum
+weight_decay: 0.0005        # Ağırlık sönümleme (overfitting engelleme)
+
+# 2. Training Schedule
+warmup_epochs: 3.0          # Isınma turu (stabilite için)
+warmup_momentum: 0.8        # Isınma anındaki momentum
+box: 7.5                    # Kutu kaybı (loss) kazancı
+cls: 0.5                    # Sınıf kaybı kazancı
+
+# 3. Data Augmentation (Görüntü Çeşitlendirme Ayarları)
+# Modelin farklı ışık ve açılarda da tanıması için yapılan ayarlar
+hsv_h: 0.015                # Renk tonu (hue) değişimi
+hsv_s: 0.7                  # Doygunluk (saturation) değişimi
+hsv_v: 0.4                  # Parlaklık (value) değişimi
+degrees: 10.0               # Döndürme (derece)
+translate: 0.1              # Kaydırma
+scale: 0.5                  # Ölçekleme
+shear: 2.0                  # Makaslama (açı değiştirme)
+perspective: 0.001          # Perspektif etkisi
+flipud: 0.0                 # Dikey takla (tabelalarda 0 olmalı!)
+fliplr: 0.5                 # Yatay takla
+mosaic: 1.0                 # Mozaik veri artırma (4 resmi birleştirme)
+
+# 4. Hardware Optimization
+mixed_precision: true       # 16-bit hassasiyet (FP16) ile daha hızlı eğitim
+Bunu Sunumda Nasıl Satarsın?

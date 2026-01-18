@@ -1,0 +1,20 @@
+{
+  "model_info": {
+    "yolo_version": "v11n",
+    "xgb_version": "2.0.3",
+    "last_train_date": "2024-05-20",
+    "device": "NVIDIA RTX 3060 Ti"
+  },
+  "benchmark_results": {
+    "test_set_size": 1000,
+    "yolo_standalone_accuracy": 0.823,
+    "hybrid_fusion_accuracy": 0.860,
+    "average_latency_ms": 12.5,
+    "improvement_score": "4.5%"
+  },
+  "hyperparameters": {
+    "learning_rate": 0.01,
+    "epochs": 100,
+    "batch_size": 16
+  }
+}

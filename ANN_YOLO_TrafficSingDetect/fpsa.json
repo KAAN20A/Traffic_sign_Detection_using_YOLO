@@ -1,0 +1,26 @@
+{
+  "project_name": "Hybrid Traffic Sign Detection",
+  "total_classes": 57,
+  "labels": {
+    "0": {
+      "name": "Hiz Siniri 20",
+      "type": "Uyari",
+      "priority": "Orta"
+    },
+    "5": {
+      "name": "DUR",
+      "type": "Duraklama",
+      "priority": "Yuksek"
+    },
+    "14": {
+      "name": "Giris Yok",
+      "type": "Yasak",
+      "priority": "Kritik"
+    },
+    "33": {
+      "name": "Saga Mecburi Yon",
+      "type": "Bilgi",
+      "priority": "Dusuk"
+    }
+  }
+}
