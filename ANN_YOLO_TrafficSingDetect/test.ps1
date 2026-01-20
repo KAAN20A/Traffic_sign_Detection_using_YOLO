@@ -5,7 +5,7 @@ Write-Host "=========================================================" -Foregrou
 Write-Host "   REAL-TIME PERFORMANCE BENCHMARKING ENGINE   " -ForegroundColor White
 Write-Host "=========================================================" -ForegroundColor Cyan
 
-# Gerçek test verilerinin olduğu klasör
+
 $dataset = "C:\Datasets\TrafficTestSet"
 
 if (!(Test-Path $dataset)) {
@@ -18,7 +18,7 @@ Write-Host "[*] Veri Kümesi: $dataset" -ForegroundColor Yellow
 Write-Host "[*] İşlem: YOLOv11 Feature Extraction + XGBoost Refinement" -ForegroundColor Gray
 Write-Host "---------------------------------------------------------"
 
-# Python'u çalıştır ve gerçek zamanlı çıktıları bekle
+
 python testbench.py
 
 Write-Host "---------------------------------------------------------"

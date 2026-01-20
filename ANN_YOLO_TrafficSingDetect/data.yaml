@@ -1,5 +1,5 @@
 train: ./datasets/trafik_isaretleri/train/images
 val: ./datasets/trafik_isaretleri/val/images
 
-nc: 57  # Sınıf sayısı (Örn: dur, giriş yok, sağa dön, sola dön)
+nc: 57  
 names: ['Speed_limit5','Speed_limit15','Speed_limit30','Speed_limit40','Speed_limit50','Speed_limit60','Speed_limit70','speed_limit80','Dont_Go_straight_or_left','Dont_Go_straight_or_Right','Dont_Go_straight','Dont_Go_Left','Dont_Go_Left_or_Right','Dont_Go_Right', 'Dont_overtake_from_Left', 'No_Uturn', 'No_Car', 'No_horn', 'Speed_limit40', 'Speed_limit50', 'Go_straight_or_right', 'Go_straight', 'Go_Left', 'Go_eft_or_right', 'Go_Right', 'keep_Left', 'keep_Right', 'Roundabout_mandatory', 'watch_out_for_cars', 'Horn', 'Bicycles_crossing', 'Uturn', 'Road_Divider', 'Traffic_signals', 'Danger_Ahead', 'Zebra_Crossing', 'Bicycles_crossing', 'Children_crossing', 'Dangerous_curve to the left', 'Dangerous_curve_to_the_right', 'Unknown1', 'Unknown2', 'Unknown3', 'Go_right_or_straight', 'Go_left_or_straight', 'Unknown4', 'ZigZag_Curve', 'Train_Crossing', 'Under_Construction', 'Unknown5', 'Fences', 'Heavy_Vehicle_Accidents', 'Unknown6', 'Give_Way', 'No_stopping', 'No_entry', 'Unknown7', 'Unknown8'] # Sınıf isimleri
